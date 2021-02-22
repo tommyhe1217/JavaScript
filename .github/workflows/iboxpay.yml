@@ -34,7 +34,7 @@ jobs:
           cd ~/JavaScript
           npm install
       - name: '运行 【笑谱】'
-        if: env.XL_URL
+        if: env.XP_refreshTOKEN
         run: |
           cd ~/JavaScript
           node Task/iboxpay.js
