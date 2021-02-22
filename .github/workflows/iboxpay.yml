@@ -1,18 +1,6 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-/*主要替换的字符👇
-
-
-小乐        //js名字
-0 0-15    //定时，如北京时间8到23点，设置0-15
-XL_URL    //环境变量之一，26行处自行添加其他
-ABC        //账号名
-JavaScript       //仓库名
-Task/xiaole.js    //子文件地址
-
-
-*/
 
 name: 笑谱
 
